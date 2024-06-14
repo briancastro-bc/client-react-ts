@@ -11,7 +11,7 @@ function bootstrap(): void {
   const root = createRoot(rootElement!);
   root.render(
     <StrictMode>
-      <App title={'Mi Segundo titulo'} />
+      <App />
     </StrictMode>
   );
 }
